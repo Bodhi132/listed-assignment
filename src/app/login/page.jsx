@@ -85,7 +85,7 @@ const Login = () => {
           </div>
           <div className=' w-full flex justify-center align-middle'>
             <div>
-              <a href="#" className="text-sm text-opacity-100 float-left mt-6 mb-8 ">Don't have an account ? <span className='text-blue-600'>Register here</span> </a>
+              <a href="#" className="text-sm text-opacity-100 float-left mt-6 mb-8 ">Don&apos;t have an account ? <span className='text-blue-600'>Register here</span> </a>
             </div>
           </div>
         </div>
