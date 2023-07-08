@@ -1,0 +1,41 @@
+/* ul li:first-child {
+    height: 10px;
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+
+    height: 10px;
+
+
+    width: 10px;
+    background-image: url('../src/assets/Ellipse\ 3.svg')
+}
+ul li:last-child {
+    height: 20px;
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+
+   
+    height: 10px;
+
+    
+    width: 10px;
+    background-image: url('../src/assets/Ellipse\ 3.svg')
+} */
+ul li:first-child  {
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url('../src/assets/Ellipse\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 10px;
+}
+ul li:last-child  {
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url('../src/assets/Ellipse\ 4.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 10px;
+}
