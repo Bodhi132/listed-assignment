@@ -5,7 +5,7 @@ const ScheduleCard = () => {
     <div className='w-[43%] h-[15rem] mt-10 mb-10 rounded-xl ms-12 bg-white'>
       <div className='flex justify-between px-9 mt-4'>
         <h2 className=' text-[1.125rem] font-bold '>Today's schedule</h2>
-        <button className=' text-xs font-light font-[#858585] '>{`See all >`}</button>
+        <button className=' text-xs font-light font-[#858585] '>{"See all >"}</button>
       </div>
       <div className='flex ms-10 mt-3'>
         <div className='h-[5rem] w-2 bg-[#9BDD7C]'></div>

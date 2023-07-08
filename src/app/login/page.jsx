@@ -1,9 +1,6 @@
 "use client"
 import { signIn, signOut, useSession } from 'next-auth/react'
-import Link from 'next/link'
 import React from 'react'
-import Image from 'next/image'
-import google from '@/assets/google.svg'
 import { useRouter } from 'next/navigation'
 
 const Login = () => {
