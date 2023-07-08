@@ -17,6 +17,8 @@ const Login = () => {
    const signInFunc = async () =>{
     signIn("google")
   }
+
+
   return (
     <div style={{ width: '100vw', height: '100vh' }} className='bg-[#f0f0f0]'>
       {/* <p>Hellow</p>
@@ -80,7 +82,7 @@ const Login = () => {
               </div>
             </div>
             <a href="#" className="text-sm text-opacity-100 mb-1 mt-2 text-blue-600 underline" style={{ textDecoration: 'none' }}>Forgot Password?</a>
-            <button type="submit"
+            <button type="submit" onClick={()=>router.push('/dashboard')}
               className="w-full mt-3 py-2 bg-black rounded-xl font-semibold text-gray-100 focus:outline-none">Sign In</button>
           </div>
           <div className=' w-full flex justify-center align-middle'>
