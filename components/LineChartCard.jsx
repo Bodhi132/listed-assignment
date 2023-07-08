@@ -160,7 +160,7 @@ const LineChartCard = () => {
                   }
             }
         })
-    }, [data, data2])
+    }, [data, data2,city,name,name1])
 
     useEffect(() => {
         axios.get('https://api.openbrewerydb.org/v1/breweries?by_state=new_york').then((res) => {

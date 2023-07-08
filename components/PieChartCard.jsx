@@ -87,7 +87,7 @@ const PieChartCard = () => {
               name?.map(
                 (item,ind) => {
                   return (
-                    <div className='w-[10rem] text-xs mb-3'>
+                    <div className='w-[10rem] text-xs mb-3' key={ind}>
                       <div className='flex mb-1 items-center'>
                         <div className={`bg-[${clr[i++]}] h-2 w-2 rounded-full me-4 `}></div>
                         <h1 className='font-bold'>{item}</h1>
