@@ -24,18 +24,18 @@ const Login = () => {
       {/* <p>Hellow</p>
         <button onClick={()=>signInFunc("google")}>Login with google</button> */}
       <div className='flex w-full h-full'>
-        <div className='bg-black h-screen w-5/12 text-white '>
+        <div className='bg-black h-screen w-5/12 text-white max-sm:hidden'>
           <div className='mt-[23rem] ms-[13rem] text-7xl font-semibold '>
             Board.
           </div>
         </div>
-        <div className=' pt-44 ps-56'>
+        <div className=' pt-44 ps-56 max-sm:ps-6'>
           <header>
             <h1 className=' text-4xl font-bold mb-1'>Sign In</h1>
             <p className=' font-semibold'>Sign in to your account</p>
           </header>
-          <div className='flex mt-8'>
-            <button className=' px-5 py-2 flex gap-2 bg-white rounded-xl text-slate-500 hover:text-slate-900 hover:shadow transition duration-150 font-light text-sm me-4'>
+          <div className='flex mt-8 max-sm:flex-col'>
+            <button className=' px-5 py-2 flex gap-2 bg-white rounded-xl text-slate-500 hover:text-slate-900 hover:shadow transition duration-150 font-light text-sm me-4 max-sm:mb-3'>
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" className='mt-1 me-1'>
                 <g id="google-icon 1" clipPath="url(#clip0_0_347)">
                   <path id="Vector" d="M13.9926 7.13096C13.9926 6.55738 13.9449 6.13883 13.8419 5.70477H7.1394V8.2936H11.0736C10.9943 8.93695 10.566 9.90584 9.61414 10.5569L9.6008 10.6436L11.72 12.2478L11.8668 12.2622C13.2152 11.0452 13.9926 9.25473 13.9926 7.13096" fill="#4285F4" />
@@ -51,9 +51,9 @@ const Login = () => {
               </svg>
               <p onClick={()=>signInFunc()}>Sign in with Google</p>
             </button>
-            <button className='px-5 py-2 flex gap-2 bg-white rounded-xl text-slate-500 hover:text-slate-900 hover:shadow transition duration-150 font-light text-sm'>
+            <button className='p-5 py-2 flex gap-2 bg-white rounded-xl text-slate-500 hover:text-slate-900 hover:shadow transition duration-150 font-light text-sm max-sm:w-[95%]'>
               <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg" className='mt-1'>
-                <g id="apple 1" clip-path="url(#clip0_0_355)">
+                <g id="apple 1" clipPath="url(#clip0_0_355)">
                   <path id="Vector" d="M6.34516 1.21952C7.27201 0.00716167 8.56055 0.00125122 8.56055 0.00125122C8.56055 0.00125122 8.75222 1.14107 7.83144 2.23908C6.84828 3.41151 5.73078 3.21966 5.73078 3.21966C5.73078 3.21966 5.52094 2.29759 6.34516 1.21952V1.21952ZM5.84866 4.0181C6.32548 4.0181 7.21043 3.36763 8.36232 3.36763C10.3451 3.36763 11.1251 4.76781 11.1251 4.76781C11.1251 4.76781 9.59954 5.54189 9.59954 7.42017C9.59954 9.53904 11.5 10.2693 11.5 10.2693C11.5 10.2693 10.1715 13.9801 8.37708 13.9801C7.55292 13.9801 6.91217 13.4289 6.04378 13.4289C5.15883 13.4289 4.28065 14.0007 3.70868 14.0007C2.0701 14.0007 0 10.4806 0 7.65098C0 4.86704 1.7522 3.40664 3.39569 3.40664C4.46411 3.40664 5.29321 4.0181 5.84866 4.0181V4.0181Z" fill="#999999" />
                 </g>
                 <defs>
