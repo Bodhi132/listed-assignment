@@ -5,8 +5,8 @@ import profile from '@/assets/profile.png'
 
 const TopNav = () => {
     return (
-        <div className='flex relative md:w-full w-2/4 mt-[3%]'>
-            <div className=' md:text-xl font-bold '>
+        <div className='flex relative md:w-full w-2/4 mt-[3%] max-sm:w-full'>
+            <div className=' md:text-xl font-bold max-sm:hidden'>
                 <h1>Dashboard</h1>
             </div>
             <div className='flex items-center absolute right-[12.5%]'>

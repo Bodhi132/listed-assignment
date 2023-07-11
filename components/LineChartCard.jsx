@@ -177,7 +177,7 @@ const LineChartCard = () => {
 
 
     return (
-        <div className=' w-[87%] border-none md:col-span-2 relative md:h-[60vh] h-[30vh] py-9 px-6 mt-[2rem] border rounded-2xl bg-white'>
+        <div className=' w-[87%] border-none md:col-span-2 relative md:h-[60vh] h-[30vh] py-9 px-6 mt-[2rem] max-sm:mt-[0.5rem] border rounded-2xl bg-white'>
             <div className='flex justify-between px-7 mb-5 pe-14'>
                 <div className=''>
                     <p className='ms-1 font-bold text-xl'>Activities</p>
@@ -186,13 +186,13 @@ const LineChartCard = () => {
                     </select>
                 </div>
                 <div className='w-[15%] me-14'>
-                    <ul className=' flex justify-between items-center text-sm me-20 pe-[5rem]'>
+                    <ul className=' flex justify-between items-center text-sm me-20 pe-[5rem] max-sm:flex-col max-sm:ms-[4rem]'>
                         <li className='guest'>NewYork</li>
                         <li className='User'>California</li>
                     </ul>
                 </div>
             </div>
-            <div className='w-full h-[20rem] px-[2rem] py-[2rem]'>
+            <div className='w-full h-[20rem] max-sm:h-[10rem] max-w-sm:h-[10rem] px-[2rem] py-[2rem]'>
                 <Line data={chartData} options={chartOptions} />
             </div>
 

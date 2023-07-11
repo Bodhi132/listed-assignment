@@ -70,7 +70,7 @@ const PieChartCard = () => {
 
 
   return (
-    <div className='w-[40%] h-[15rem] mt-10 mb-10 bg-white rounded-xl flex-col'>
+    <div className='w-[40%] max-sm:w-5/6 h-[15rem] mt-10 max-sm:mt-4 mb-10 max-sm:mb-3 bg-white rounded-xl flex-col'>
       <div className='flex justify-around mt-3'>
         <h2 className='font-bold text-lg'>Breweries</h2>
         <select name="" id="" className=' font-extralight text-xs text-slate-600'>
@@ -78,7 +78,7 @@ const PieChartCard = () => {
         </select>
       </div>
       <div className='w-full h-full flex justify-between'>
-        <div className='w-[40%] h-[70%] ps-6 pt-4 mt-2 ms-1'>
+        <div className='w-[40%] max-sm:w-[30%] h-[70%] ps-6 pt-4 mt-2 ms-1'>
           <canvas ref={canvas}></canvas>
         </div>
         <div className='w-auto'>
