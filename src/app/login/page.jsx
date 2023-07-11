@@ -32,7 +32,7 @@ const Login = () => {
         <div className=' pt-44 ps-56 max-sm:ps-6'>
           <header className='text-black'>
             <h1 className=' text-4xl font-bold mb-1'>Sign In</h1>
-            <p className=' font-semibold'>Sign in to your account</p>
+            <p className=' font-semibold text-black'>Sign in to your account</p>
           </header>
           <div className='flex mt-8 max-sm:flex-col'>
             <button className=' px-5 py-2 flex gap-2 bg-white rounded-xl text-slate-500 hover:text-slate-900 hover:shadow transition duration-150 font-light text-sm me-4 max-sm:mb-3'>
