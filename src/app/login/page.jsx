@@ -30,7 +30,7 @@ const Login = () => {
           </div>
         </div>
         <div className=' pt-44 ps-56 max-sm:ps-6'>
-          <header>
+          <header className='text-black'>
             <h1 className=' text-4xl font-bold mb-1'>Sign In</h1>
             <p className=' font-semibold'>Sign in to your account</p>
           </header>
